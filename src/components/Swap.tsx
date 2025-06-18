@@ -26,7 +26,7 @@ export function Swap() {
   const { openConnectModal } = useConnectModal();
   const { disconnect } = useDisconnect();
   const { data: provider } = useWalletClient();
-  // const provider = usePublicClient();
+
   console.log("provider", provider);
   useEffect(() => {
     if (openConnectModal) {
