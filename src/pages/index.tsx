@@ -47,7 +47,7 @@ const berachain = {
 const chains = [mainnet, polygon, arbitrum, optimism, avalanche, sonic, zora, berachain];
 
 const client = createThirdwebClient({
-  clientId: "654d245030441fe158c45b853815aa08"
+  clientId: ""
 })
 
 const wallets = [
