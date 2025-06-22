@@ -26,10 +26,10 @@ const sonic: Chain = {
     name: "s",
     symbol: "S",
   },
-  rpcUrls: {
-    default: { http: ["https://rpc.soniclabs.com"] },
-    public: { http: ["https://rpc.soniclabs.com"] }, // Replace with your RPC URL
-  },
+  // rpcUrls: {
+  //   default: { http: ["https://rpc.soniclabs.com"] },
+  //   public: { http: ["https://rpc.soniclabs.com"] }, // Replace with your RPC URL
+  // },
   blockExplorers: {
     default: {
       name: "SonicScan",
