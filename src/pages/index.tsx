@@ -10,22 +10,22 @@ import { arbitrum, avalanche, base, bsc, mainnet, optimism, polygon, zora } from
 
 console.log('arbitrum', arbitrum, mainnet, avalanche)
 
-// const sonic = {
-//   id: 146,
-//   name: "Sonic",
-//   nativeCurrency: {
-//     decimals: 18,
-//     name: "S",
-//     symbol: "S",
-//   },
-//   rpc: 'https://146.rpc.thirdweb.com',
-//   blockExplorers: [
-//     {
-//       name: "SonicScan",
-//       url: "https://sonicscan.org",
-//     }
-//   ],
-// }
+const sonic = {
+  id: 146,
+  name: "Sonic",
+  nativeCurrency: {
+    decimals: 18,
+    name: "S",
+    symbol: "S",
+  },
+  rpc: 'https://146.rpc.thirdweb.com',
+  blockExplorers: [
+    {
+      name: "SonicScan",
+      url: "https://sonicscan.org",
+    }
+  ],
+}
 
 const berachain = {
   id: 80094,
