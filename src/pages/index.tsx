@@ -8,7 +8,7 @@ import { createThirdwebClient } from "thirdweb";
 import { createWallet } from "thirdweb/wallets";
 import { arbitrum, avalanche, base, bsc, mainnet, optimism, polygon, zora } from "thirdweb/chains";
 
-console.log('arbitrum', arbitrum, mainnet, avalanche)
+console.log('arbitrum', arbitrum, mainnet, sepolia)
 
 const sonic = {
   id: 146,
