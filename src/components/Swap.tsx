@@ -40,11 +40,11 @@ export function Swap() {
     }
   }, [disconnect]);
 
-  // useEffect(() => {
-  //   if (address && document && provider) {
-  //     updateAddressAndProvider(address, provider as any);
-  //   }
-  // }, [address, provider]);
+  useEffect(() => {
+    if (address && document && provider) {
+      updateAddressAndProvider(address, provider as any);
+    }
+  }, [address, provider]);
 
   useEffect(() => {
     // if (document) {

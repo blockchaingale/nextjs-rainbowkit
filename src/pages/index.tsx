@@ -89,11 +89,11 @@ const Home: NextPage = () => {
         {/* <Swap /> */}
       </main>
 
-      <footer className={styles.footer}>
+{/*       <footer className={styles.footer}>
         <a href="https://rainbow.me" rel="noopener noreferrer" target="_blank">
           Made by Magic Fi
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 };
