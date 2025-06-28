@@ -3,14 +3,14 @@ import { createConfig, http } from 'wagmi';
 import { inAppWalletConnector } from "@thirdweb-dev/wagmi-adapter";
 import {
   arbitrum,
-  goerli,
-  mainnet,
-  optimism,
-  polygon,
-  base,
-  zora,
-  avalanche,
-  master
+  // goerli,
+  // mainnet,
+  // optimism,
+  // polygon,
+  // base,
+  // zora,
+  // avalanche,
+  // master
   Chain,
 } from 'wagmi/chains';
 
