@@ -3,7 +3,7 @@ import "@rainbow-me/rainbowkit/styles.css";
 import { RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
-import { WagmiProvider  } from "wagmi";
+// import { WagmiProvider  } from "wagmi";
 import { ChainProvider, ThirdwebProvider } from "thirdweb/react";
 
 import { config } from '../wagmi';
